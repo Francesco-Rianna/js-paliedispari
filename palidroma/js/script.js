@@ -14,7 +14,7 @@ if (userWord === wordOpposite) {
     userMessage = alert('la parola è palindroma')
 
 } else {
-    userMessage === alert('la parola non è palindroma ')
+    userMessage = alert('la parola non è palindroma ')
 }
 
 
