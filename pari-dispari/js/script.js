@@ -14,15 +14,19 @@ console.log(userNumber)
 
 const cpuNumber = getRndInteger(1, 5)
 console.log(cpuNumber)
+// recupero la funzione somma 
 let sumNum = sumNumber(userNumber, cpuNumber)
 console.log('la somma è ' + sumNum)
+// recupero la funzione che controlla se la somma è pari o dispari
 let finalControlSum = isEvenOrOdd(sumNum)
 
 // FUNCTIONS 
-// funzione trovata sul sito w3school https://www.w3schools.com/js/js_random.as
+// funzione trovata sul sito w3school per generare un numero casuale  https://www.w3schools.com/js/js_random.as
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+// funzione per fare la somma tra i due numeri (utene + pc )
+
 // faccio la somma tra il numero dell'utente e il numero casuale del cpu
 function sumNumber(num1, num2) {
     let sum = num1 + num2
